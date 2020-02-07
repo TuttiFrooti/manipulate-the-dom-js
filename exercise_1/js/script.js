@@ -20,7 +20,6 @@ notification.classList.add('has-background-primary');
 
 notification.classList.add('is-invisible');
 
-const navBar = document.querySelectorAll('.navbar-item bar a');
+const aElement = document.querySelectorAll('.button');
 
-const loginButton = navBar.forEach(e => e.innerHTML === 'Log in')
-console.log(loginButton);
+aElement.forEach(e => console.log(e))
